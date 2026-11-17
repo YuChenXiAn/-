@@ -1,0 +1,13 @@
+interface:
+  display_name: seg_skill
+  short_description: 从业务需求与标注方案生成分割算法文档，支持需求核对、参数变更及开发交付核验
+  default_prompt: 使用 $seg-skill，结合我的需求和标注方案生成目标分割算法文档，并核对参数、公式、时序与输出示例。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
